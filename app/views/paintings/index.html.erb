@@ -1,0 +1,20 @@
+<div class="main">
+
+	<h1>h1.Awesome Famous Paintings</h1>
+
+	<% @paintings.each do |p| %>
+
+
+		<div class="painting", class="text-center">
+			<%=p.name%>
+			<blockquote class="blockquote-reverse">
+  					famous guy
+			</blockquote>
+		</div>
+		<div class="details">
+			<span class="glyphicon glyphicon-backward">Painted by <%=p.artist%> in <%=p.year %>.</span>
+		</div>
+
+	<% end %>
+
+</div> 
